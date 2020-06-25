@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>319</width>
+    <height>171</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>319</width>
+    <height>171</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>319</width>
+    <height>171</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>FourFunctionQT</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="ValueOneLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Value One: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ValueTwoLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Value Two: </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ValueOneTextBox">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ValueTwoTextBox">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ResultLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Result:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CalculatedResultLabel">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CalculateButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>101</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="OperationLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Operation:</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="AdditionRadio">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>102</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Addition</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="SubtractionRadio">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>60</y>
+      <width>102</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Subtraction</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="MultiplicationRadio">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>102</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Multiplication</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="DivisionRadio">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>102</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Di&amp;vision</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
